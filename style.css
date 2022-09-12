@@ -1,0 +1,58 @@
+h1 {
+    color: white;
+    font-size: 34px;
+    font-family: "Calibri (Body)";
+  }
+  h2 {
+    color: white;
+    font-size: 15px;
+    font-family: "Calibri (Body)";
+  }
+  header {
+    margin-right: 50%;
+    margin-left: -10%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
+  body {
+    background: linear-gradient(#b001ff, #00b0fd);
+    height: 100%;
+    margin-right: 10%;
+    margin-left: 20%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  input {
+    width: 70%;
+  }
+  input[type="text"] {
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px 3px;
+    margin: 3px 0;
+    background: transparent
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: white;
+      opacity: 1; /* Firefox */
+    }
+    
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: white;
+    }
+    
+    ::-ms-input-placeholder { /* Microsoft Edge */
+      color: white;
+    }
+    main button {
+      background: #B100FF;
+      color: white;
+      border-radius: 15px;
+      padding: 10px 3px;
+      margin: 3px 0;
+      border-color: #0066A2;
+      height: 40px;
+      width: 130px;
+      font-family: "Calibri (Body)";
+      text-shadow: none;
+      }
