@@ -98,3 +98,20 @@ p {
     margin: 3px 0;
     background: transparent
   }
+ input[type="file"] {
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px 3px;
+    margin: 3px 0;
+    background: transparent
+  }
+body::-webkit-scrollbar {
+	width: 10px;
+	background: #021b79;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: rgba(255,255,255, .2);
+	border-radius: 10px;
+	border-right: 2px solid #021b79;
+}
