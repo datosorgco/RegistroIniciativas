@@ -1,12 +1,11 @@
 h1 {
     color: white;
     font-size: 34px;
-    font-family: "Calibri (Body)";
+    
   }
   h2 {
     color: white;
     font-size: 15px;
-    font-family: "Calibri (Body)";
   }
   header {
     margin-right: 50%;
@@ -15,6 +14,8 @@ h1 {
     margin-bottom: 3%;
   }
   body {
+    /* declarar en el body font family */
+    font-family: Helvetica, sans-serif;
     background: linear-gradient(#b001ff, #00b0fd);
     height: 100%;
     margin-right: 10%;
