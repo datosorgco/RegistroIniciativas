@@ -15,34 +15,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- llamamiento al CSS -->
     <link rel="stylesheet" href="./style.css"/>
-    
   </head>
   <body>
+    <!-- Fondo de color solido para el HTML -->
     <body style="background-color: #b001ff"></body>
     <header>
+      <!-- Ubicación del logotipo -->
       <h1>Trueque.land</h1>
       <nav></nav>
     </header>
     <main>
       <section>
+        <!-- Declaracion de la imagen como figura para mejor manipulacion -->
         <figure>
+          <!-- Alineacion a la derecha -->
           <div align="right">
+            <!-- Declaracion imagen  tamaño descripcion ubicación -->
             <img src="./Resources/Charity-bro.png" width="25%" height="10%"
             alt="Es una imagen de proyectos sociales" style="float:right; padding-right: 250px;"}
           </div>  
         </figure>
-        <h1>Sube tu proyecto social a</h1>
+        <!-- Titulos y subtitulos -->
+        <h1>Sube tu proyecto social a </h1>
         <h1>Trueque y recibe donaciones</h1>
-        <h2>
-          Las organizaciones pueden registrarse y subir su proyecto social. Los
-        </h2>
-        <h2>
-          detalles de cada proyecto son importantes. Bienvenido a Trueque.
-        </h2>
+        <h2>Las organizaciones pueden registrarse y subir su proyecto social. Los
+        detalles de cada proyecto son importantes. Bienvenido a Trueque.</h2>
         <h1>Tus datos</h1>
       </section>
+      <!-- text box -->
       <bu action="">
+        <!-- etiqueta -->
         <label for="proyecto">
+          <!-- tipo , texto interno y obligatoriedad -->
           <input type="text" id="proyecto" placeholder="El nombre de tu proyecto" required/>
         </label><br /><br />
         <label for="nombre">
@@ -54,11 +58,11 @@
         <label for="organización">
           <input type="text" id="organización" placeholder="El nombre de tu organización" autocomplete="organization" required/>
         </label><br /><br />
+        <!-- boton tipo submit de registro -->
         <button type="submit">Registrarme</button><br /><br />
       </form>
     </main>
     <footer>
-      <a href="https://datos.org.co/"> Datos.Org </a>
     </footer>
   </body>
 </html>
