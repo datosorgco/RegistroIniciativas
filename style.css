@@ -16,10 +16,8 @@ p {
     font-size: 12px;
   }
   header {
-    margin-right: 50%;
-    margin-left: -10%;
-    margin-top: 1%;
-    margin-bottom: 3%;
+/* Margen top, right, bottom, left*/
+    margin: 1% 50% 3% -10%;
   }
   body {
     /* declarar en el body font family */
@@ -31,10 +29,8 @@ p {
     background-attachment: fixed;
     overflow: hidden;
     height: 100%;
-    margin-right: 10%;
-    margin-left: 20%;
-    margin-top: 0%;
-    margin-bottom: 2%;
+  /* Margen top, right, bottom, left*/
+    margin: 0% 10% 2% 20%;
   }
   input {
     width: 75%;
