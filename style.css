@@ -1,11 +1,17 @@
+/* Propiedades Titulo*/
 h1 {
     color: white;
-    font-size: 34px;
-    
+    font-size: 28px;
   }
+/* Propiedades Subtitulo*/
   h2 {
     color: white;
     font-size: 15px;
+  }
+/* Propiedades Parrafo*/
+p {
+    color: white;
+    font-size: 12px;
   }
   header {
     margin-right: 50%;
@@ -17,6 +23,11 @@ h1 {
     /* declarar en el body font family */
     font-family: Helvetica, sans-serif;
     background: linear-gradient(#b001ff, #00b0fd);
+  /* Hereda el valor del elemento principal */
+    background-position: inherit;
+  /* Si fixed es especificado, la imagen de fondo estará fija en la pantalla y no se moverá con el bloque contenedor. */
+    background-attachment: fixed;
+    overflow: hidden;
     height: 100%;
     margin-right: 10%;
     margin-left: 20%;
