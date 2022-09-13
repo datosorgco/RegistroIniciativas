@@ -1,0 +1,100 @@
+/* Propiedades Titulo*/
+h1 {
+    color: white;
+    font-size: 28px;
+    line-height : 15px;
+  }
+/* Propiedades Subtitulo*/
+  h2 {
+    color: white;
+    font-size: 15px;
+    line-height : 20px;
+  }
+/* Propiedades Parrafo*/
+p {
+    color: white;
+    font-size: 12px;
+  }
+  header {
+  /* Margen top, right, bottom, left*/
+  margin: 2% 50% 3% -10%;
+  }
+  body {
+    /* declarar en el body font family */
+    font-family: Helvetica, sans-serif;
+    background: linear-gradient(#b001ff, #00b0fd);
+  /* Hereda el valor del elemento principal */
+    background-position: inherit;
+  /* Si fixed es especificado, la imagen de fondo estará fija en la pantalla y no se moverá con el bloque contenedor. */
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 100%;
+  /* Margen top, right, bottom, left*/
+  margin: 0% 10% 2% 20%;
+  }
+  input {
+    width: 95%;
+  }
+  input[type="text"] {
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px 3px;
+    margin: 3px 0;
+    background: transparent
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: white;
+      opacity: 1; /* Firefox */
+    }
+    
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: white;
+    }
+    
+    ::-ms-input-placeholder { /* Microsoft Edge */
+      color: white;
+    }
+  .estilotextarea 
+{
+  width:95%;
+  height:25%;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 10px 3px;
+  margin: 3px 0;
+  background: transparent
+}
+  .estilotextarea2 
+{
+  width:95%;
+  height:20%;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 10px 3px;
+  margin: 3px 0;
+  background: transparent
+}
+
+
+    main button {
+      background: #B100FF;
+      color: white;
+      border-radius: 15px;
+      padding: 10px 3px;
+      margin: 3px 0;
+      border-color: #0066A2;
+      height: 40px;
+      width: 130px;
+      font-family: Helvetica, sans-serif;
+      text-shadow: none;
+      }
+  input {
+    width: 95%;
+  }
+ input[type="url"] {
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px 3px;
+    margin: 3px 0;
+    background: transparent
+  }
