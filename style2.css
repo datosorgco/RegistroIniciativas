@@ -18,7 +18,7 @@ p {
 /* Parte superior Logo Trueque.org*/
   header {
   /* Margen top, right, bottom, left*/
-  margin: 2% 50% 3% -10%;
+  margin: 2% 50% 3% 0%;
   }
   body {
     /* declaración fuente para todo el documento */
@@ -31,7 +31,7 @@ p {
     background-attachment: fixed;
     height: 100%;
   /* Margen top, right, bottom, left*/
-  margin: 0% 10% 2% 20%;
+  margin: 0% 2% 2% 7%;
   }
   input {
   /* tamaño de los input*/	  
