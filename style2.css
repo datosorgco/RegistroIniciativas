@@ -94,6 +94,7 @@ p {
       width: 130px;
       font-family: Helvetica, sans-serif;
       text-shadow: none;
+      cursor: pointer;
       }
   input {
     width: 95%;
@@ -125,7 +126,7 @@ input[type="file"]::-webkit-file-upload-button{
     background: transparent
     transition: 1s;
     background-color: white;
-    display:flex
+    cursor: pointer; 
 }
 input[type=file]::file-selector-button:hover {
   background-color: #B100FF;
