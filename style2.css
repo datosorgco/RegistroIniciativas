@@ -15,15 +15,17 @@ p {
     color: white;
     font-size: 12px;
   }
+/* Parte superior Logo Trueque.org*/
   header {
   /* Margen top, right, bottom, left*/
   margin: 2% 50% 3% -10%;
   }
   body {
-    /* declarar en el body font family */
+    /* declaración fuente para todo el documento */
     font-family: Helvetica, sans-serif;
+    /* Fondo degrade con identificación Hex */
     background: linear-gradient(#b001ff, #00b0fd);
-  /* Hereda el valor del elemento principal */
+    /* Hereda el valor del elemento principal */
     background-position: inherit;
   /* Si fixed es especificado, la imagen de fondo estará fija en la pantalla y no se moverá con el bloque contenedor. */
     background-attachment: fixed;
@@ -32,8 +34,10 @@ p {
   margin: 0% 10% 2% 20%;
   }
   input {
+  /* tamaño de los input*/	  
     width: 95%;
   }
+  /* propiedades input text, borde, radio bordes, margenes y fondo trasparente*/	
   input[type="text"] {
     border: 2px solid white;
     border-radius: 15px;
@@ -41,6 +45,7 @@ p {
     margin: 3px 0;
     background: transparent
   }
+  /* lectura del texto dentro del input en diversos navegadores y color de letra*/
   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
       color: white;
       opacity: 1; /* Firefox */
@@ -53,8 +58,10 @@ p {
     ::-ms-input-placeholder { /* Microsoft Edge */
       color: white;
     }
+   /* Estilo aplicado al textarea id= descripción*/
   .estilotextarea 
 {
+  font-family: Helvetica, sans-serif;
   width:95%;
   height:25%;
   border: 2px solid white;
@@ -63,8 +70,10 @@ p {
   margin: 3px 0;
   background: transparent
 }
+  /* Estilo aplicado al textarea id= insumos*/
   .estilotextarea2 
 {
+  font-family: Helvetica, sans-serif;
   width:95%;
   height:20%;
   border: 2px solid white;
@@ -73,8 +82,7 @@ p {
   margin: 3px 0;
   background: transparent
 }
-
-
+  /* Estilo aplicado al botón guardar*/
     main button {
       background: #B100FF;
       color: white;
@@ -90,6 +98,7 @@ p {
   input {
     width: 95%;
   }
+  /* Estilo aplicado al id= link*/
  input[type="url"] {
     border: 2px solid white;
     border-radius: 15px;
@@ -97,6 +106,7 @@ p {
     margin: 3px 0;
     background: transparent
   }
+  /* Estilo aplicado al id= myfile*/
  input[type="file"] {
     border: 2px solid white;
     border-radius: 15px;
@@ -104,11 +114,12 @@ p {
     margin: 3px 0;
     background: transparent
   }
+  /* Diseño Scrollbar*/
 body::-webkit-scrollbar {
 	width: 10px;
 	background: #021b79;
 }
-
+  /* Diseño Scrollbar*/
 body::-webkit-scrollbar-thumb {
 	background: rgba(255,255,255, .2);
 	border-radius: 10px;
