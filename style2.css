@@ -97,6 +97,8 @@ p {
   }
   /* Estilo aplicado al id= myfile*/
  input[type="file"] {
+    color:purple;
+    font-weight: bold;
     border: 2px solid white;
     border-radius: 15px;
     padding: 0px 0px;
