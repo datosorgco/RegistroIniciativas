@@ -84,20 +84,6 @@ p {
   margin: 3px 0;
   background: transparent
 }
-  /* Estilo aplicado al botón guardar*/
-    main button {
-      background: #B100FF;
-      color: white;
-      border-radius: 15px;
-      padding: 10px 3px;
-      margin: 3px 0;
-      border-color: #0066A2;
-      height: 40px;
-      width: 130px;
-      font-family: Helvetica, sans-serif;
-      text-shadow: none;
-      cursor: pointer;
-      }
   input {
     width: 95%;
   }
@@ -157,6 +143,57 @@ input[type=file]::before {
     line-height: 35px;
     content: "Debes subir una fotografía del impacto de tu proyecto en la mayor resolución posible";
     color: white;
-    padding: 10px 20px;
-	
+    padding: 10px 20px;	
+}
+
+ /* Estilo aplicado al botón guardar*/
+    main button {
+      border-radius: 15px;
+      padding: 10px 3px;
+      margin: 3px 0;
+      border-color: #0066A2;
+      height: 40px;
+      width: 130px;
+      font-family: Helvetica, sans-serif;
+      cursor: pointer;
+      position: relative;
+	  text-align: center;
+	  font-weight: bold;
+	  overflow: hidden;
+	  transition: all ease 0.5s;
+	  background:#B100FF;
+      color: white;
+}
+main button:after,
+main button:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+}
+main button:before{
+	left: -48%;
+}
+main button:hover{
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#922b3e
+}
+main button:hover:after,
+main button:hover:before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+main button:hover:after{
+	right: 130%;
+}
+main button:hover:before{
+	left: 130%;
 }
