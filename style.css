@@ -53,9 +53,27 @@ p {
     
     ::-ms-input-placeholder { /* Microsoft Edge */
       color: white;
-    }
-    main button:after,
-    main button:before{
+  }
+/* Estilo aplicado al botón guardar*/
+    main button {
+      border-radius: 15px;
+      padding: 10px 3px;
+      margin: 3px 0;
+      border-color: #0066A2;
+      height: 40px;
+      width: 130px;
+      font-family: Helvetica, sans-serif;
+      cursor: pointer;
+      position: relative;
+      text-align: center;
+      font-weight: bold;
+      overflow: hidden;
+      transition: all ease 0.5s;
+      background:#B100FF;
+      color: white;
+}
+main button:after,
+main button:before{
 	width: 80px;
 	height: 200px;
 	content: '';
@@ -68,22 +86,22 @@ p {
 	right:-45%;
 	cursor: pointer;
 }
-    main button:before{
+main button:before{
 	left: -48%;
 }
-    main button:hover{
+main button:hover{
 	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
 	background:#922b3e
 }
-    main button:hover:after,
-    main button:hover:before{
+main button:hover:after,
+main button:hover:before{
 	transform: rotate(45deg), scaleX(130%);
 	background: rgba(255,255,255,0.1);
 	transition: all ease 0.5s;
 }
-    main button:hover:after{
+main button:hover:after{
 	right: 130%;
 }
-    main button:hover:before{
+main button:hover:before{
 	left: 130%;
 }
