@@ -1,3 +1,7 @@
+header {
+  /* Margen top, right, bottom, left*/
+  margin: 2% 0% 0% -3%;
+  }
 /* Propiedades Titulo*/
 h1 {
     color: white;
@@ -16,11 +20,7 @@ p {
     font-size: 12px;
   }
 /* Parte superior Logo Trueque.org*/
-  header {
-  /* Margen top, right, bottom, left*/
-  margin: 0% 5% 0% 0%;
-  }
-  body {
+body {
     /* declaración fuente para todo el documento */
     font-family: Helvetica, sans-serif;
     /* Fondo degrade con identificación Hex */
@@ -31,11 +31,11 @@ p {
     background-attachment: fixed;
     height: 100%;
   /* Margen top, right, bottom, left*/
-  margin: 0% 2% 2% 7%;
+  margin: 0% 7% 2% 7%;
   }
   input {
   /* tamaño de los input*/	  
-    width: 95%;
+    width: 100%;
   }
   /* propiedades input text, borde, radio bordes, margenes y fondo trasparente*/	
   input[type="text"] {
@@ -58,7 +58,7 @@ p {
     ::-ms-input-placeholder { /* Microsoft Edge */
       color: white;
     }
-   /* Estilo aplicado al textarea id= descripción*/
+/* Estilo aplicado al textarea id= descripción*/
   .estilotextarea 
 {
   font-family: Helvetica, sans-serif;
@@ -84,40 +84,54 @@ p {
   margin: 3px 0;
   background: transparent
 }
-  input {
-    width: 95%;
-  }
+input {
+  width: 95%;
+}
   /* Estilo aplicado al id= link*/
- input[type="url"] {
+input[type="url"] {
     border: 2px solid white;
     border-radius: 15px;
     padding: 10px 20px;
     margin: 3px 0;
-    background: transparent
+    background: transparent;
   }
   /* Estilo aplicado al id= myfile*/
- input[type="file"] {
+  input {
     width: 95%;
+  }
+input[type="file"] {
     color:purple;
     font-weight: bold;
     border: 2px solid white;
     border-radius: 15px;
     padding: 0px 0px;
-    margin: 3px 0;
-    background: transparent
+    background: transparent;
   }
-input[type="file"]::-webkit-file-upload-button{
-   -webkit-appearance: none;
-   float: right;
-   /* Margen top, right, bottom, left*/
-   margin: 0 0 0 0%;
-   border: 0px solid white;
+  input[type="file"]::-webkit-file-upload-button{
+    -webkit-appearance: none;
+    float: right;
+    /* Margen top, right, bottom, left*/
+    margin: 0% 0% 0% 0%;
+    border: 0px solid white;
     border-radius: 15px;
     padding: 1.2% 13%;
-    background: transparent
-    transition: 1s;
+    background: transparent;
     background-color: white;
     cursor: pointer; 
+}
+.file1
+input[type=file]::before {
+    line-height: 35px;
+    content: "Debes agregar una imagen que sea el identificador de tu proyecto";
+    color: white;
+    padding: 10px 20px;
+}
+.file2
+input[type=file]::before {
+    line-height: 35px;
+    content: "Debes subir una fotografía del impacto de tu proyecto en la mayor resolución posible";
+    color: white;
+    padding: 10px 20px;	
 }
 input[type=file]::file-selector-button:hover {
   background-color: #B100FF;
@@ -134,22 +148,7 @@ body::-webkit-scrollbar-thumb {
 	border-radius: 10px;
 	border-right: 2px solid #021b79;
 }
-.file1
-input[type=file]::before {
-    line-height: 35px;
-    content: "Debes agregar una imagen que sea el identificador de tu proyecto";
-    color: white;
-    padding: 10px 20px;
-}
-.file2
-input[type=file]::before {
-    line-height: 35px;
-    content: "Debes subir una fotografía del impacto de tu proyecto en la mayor resolución posible";
-    color: white;
-    padding: 10px 20px;	
-}
-
- /* Estilo aplicado al botón guardar*/
+/* Estilo aplicado al botón guardar*/
     main button {
       border-radius: 15px;
       padding: 10px 3px;
