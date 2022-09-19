@@ -109,9 +109,6 @@ body {
   margin: 3px 0;
   background: transparent
 }
-input {
-  width: 95%;
-}
   /* Estilo aplicado al id= link*/
 input[type="url"] {
     width:95%;
@@ -147,6 +144,7 @@ input[type="file"] {
 input[type=file]::before {
     line-height: 35px;
     content: "Debes agregar una imagen que sea el identificador de tu proyecto";
+    color: white;
     padding: 10px 20px;
 }
 .file2
