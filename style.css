@@ -41,13 +41,13 @@ input {
 h1 {
   color: white;
   font-size: 38px;
-  line-height: 52px;
+  line-height: 100%;
 }
 /* Propiedades Subtitulo*/
 h2 {
   color: white;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 100%;
 }
 /* Propiedades Parrafo*/
 p {
