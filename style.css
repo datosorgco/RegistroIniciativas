@@ -32,7 +32,7 @@
 }
 header {
   /* Margen top, right, bottom, left*/
-  margin: 2% 2% 3% -15%;
+  margin: 2% 2% 0% -15%;
 }
 input {
   width: 90%;
